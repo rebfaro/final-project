@@ -30,7 +30,7 @@ def add_puzzle():
             
 
 def display_puzzles(puzzles):
-    for data in puzzles: # aqui a gente ta indo por cada item da lista que são os dicionários
+    for data in puzzles: 
         print("=" * 40)
         for key in data:
             print(f"{key} : {data.get(key)}") 
